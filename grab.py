@@ -1,6 +1,9 @@
 #File Grabber by Anthony Pollard
 #2022, No Copyright, Free for use
 
+#grabs multiple files from paths (including network paths) in csv, and stores them in a single local folder on your machine.
+#Summary, failed files, and errors output to grab.log and includes the full file path of the failure.
+
 import csv
 import shutil
 import os
