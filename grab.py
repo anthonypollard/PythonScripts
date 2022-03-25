@@ -22,7 +22,7 @@ isExist = os.path.exists(dest)
 
 if not isExist:
     os.makedirs(dest)
-    logging.info('Destination Does Not Exist, Creating Directory at {a}'.format(a=dest)
+    logging.info('Destination Does Not Exist, Creating Directory at {a}'.format(a=dest))
 
 #Open csv file from input
 with open(filename, 'r') as csvfile:
